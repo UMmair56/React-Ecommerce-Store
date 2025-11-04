@@ -1,0 +1,26 @@
+.category{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    background-color: #d6d1d1;
+    height: 80px;
+}
+#item-category{
+    margin-top: 25px;
+}
+#item-category button{
+    width: 130px;
+}
+
+@media (max-width: 720px){
+   .category{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px 20px; /* gap: row-gap column-gap */
+    height: auto;
+    padding-bottom: 20px;
+    }
+}

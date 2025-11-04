@@ -1,0 +1,58 @@
+.singleProduct{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.single-all{
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.product-img img{
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.detial{
+    width: 500px;
+}
+#single-h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.548);
+}
+#ingle-h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#number-lable{
+    font-weight: 700;
+    font-size: 20px;
+}
+#number-input{
+   height: 30px;
+   width: 50px;
+   text-align: center;
+   font-size: 20px;
+}
+
+@media (max-width: 720px){
+    .singleProduct{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 380px;
+    }
+    .single-all{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        margin-top: 0px;
+    }
+    .product-img img{
+    margin-left: 50px;
+    }
+    .detial{
+    width: 380px;
+    }
+}

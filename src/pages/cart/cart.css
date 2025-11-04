@@ -1,0 +1,276 @@
+.cart{
+    padding-left: 195px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.add-cart{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    background-color: rgba(214, 205, 205, 0.397);
+    width: 975px;
+    height: 100px;
+    margin-top: 20px;
+}
+.cart-img{
+    display: flex;
+    gap: 20px;
+}
+.img-detail{
+    margin-top: 20px;
+}
+#title{
+    width: 300px;
+}
+.img img{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#price{
+    color: red;
+}
+.quantity button{
+    width: 50px;
+    height: 50px;   
+}
+.quantity{
+    background-color: red;
+    border-radius: 5px;
+    color: white; 
+}
+#delete{
+    height: 50px;
+    width: 50px;
+}
+.deliver-bill{
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    column-gap: 50px;
+
+}
+.delivery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(214, 205, 205, 0.397);
+    width: 500px;
+    border-radius: 10px;
+    height: 550px;
+    margin-top: 50px;
+}
+#d-h2{
+    margin-top: 30px;
+    margin-right: 210px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+.name input{
+    width: 400px;
+    height:35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.address input{
+    width: 400px;
+    height:35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,0.8fr);
+    margin-top: 20px;
+    row-gap: 15px;
+    margin-left: 20px;
+}
+.state input{
+    width: 190px;
+    height:35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+.postcode input{
+    width: 190px;
+    height:35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+.country input{
+    width: 190px;
+    height:35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+.Phone-no input{
+    width: 190px;
+    height:35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+#submit{
+    margin-right: 330px;
+    margin-top: 20px;
+}
+
+.bill{
+    background-color: rgba(214, 205, 205, 0.397);
+    border-radius: 10px;
+    height: 360px;
+    width: 425px;
+    margin-top: 50px;
+}
+#b-h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.items-price{
+    margin:10px;
+}
+.Delivery-charge{
+    margin:10px;
+}
+.Handling-charge{
+    margin:10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.Grand-total{
+    margin:10px;
+}
+#bill-input{
+    margin: 10px;
+    height: 30px;
+    width: 325px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+#b-btn{
+    width: 405px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 35px;
+}
+
+.nodataSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+#img{
+    width: 500px;
+    height: 400px;
+}
+.nodataSection h3{
+    margin-top: 50px;
+}
+.nodataSection button{
+    margin-bottom: 40px;
+    width: 150px;
+}
+
+@media (max-width: 720px){
+    .cart{
+    padding-left: 10px;
+    }
+    .add-cart{
+    gap: 0px;
+    width: 370px;
+    height: 120px;
+    }
+    .cart-img{
+    gap: 5px;
+    }
+    #title{
+    width: 150px;
+    }
+    .img img{
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    }
+    .quantity button{
+    width: 30px;
+    height: 30px;   
+    }
+    #delete{
+    height: 40px;
+    width: 40px;
+    }
+    .deliver-bill{
+    display: grid;
+    grid-template-columns: repeat(1,0fr);
+    }
+    .delivery{
+    width: 370px;
+    }
+    .name input{
+    width: 360px;
+    }
+    .address input{
+    width: 360px;
+    }
+    .grid{
+    margin-left: 10px;
+    }
+    .state input{
+    width: 170px;
+    }
+    .postcode input{
+    width: 170px;
+    }
+    .country input{
+    width: 170px;
+    }
+    .Phone-no input{
+    width: 170px;
+    }
+    #submit{
+    margin-right: 280px;
+    }
+    .bill{
+    width: 370px;
+    }
+    #b-btn{
+    width: 350px;
+    }
+    #apply-btn{
+        margin-left: 10px;
+    }
+}
